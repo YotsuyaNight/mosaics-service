@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "mosaicsgrpc/services";
+option go_package = "/proto";
 
 package hello_world;
 

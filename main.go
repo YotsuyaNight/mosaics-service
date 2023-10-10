@@ -10,7 +10,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	pb "mosaicsgrpc/services"
+	pb "mosaics-grpc/proto"
 )
 
 type HelloWorldServerImpl struct {
