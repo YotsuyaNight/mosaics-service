@@ -1,0 +1,3 @@
+[submodule "go-mosaics"]
+	path = go-mosaics
+	url = git@github.com:YotsuyaNight/go-mosaics.git

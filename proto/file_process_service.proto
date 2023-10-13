@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option go_package = "/proto";
+
+package file_processing;
+
+service FileProcessing {
+  rpc ProcessFile(ProcessFileReq) returns (ProcessFileRepl) {}
+}
+
+message ProcessFileReq {
+  string filepath = 1;
+}
+
+message ProcessFileRepl {
+  string filepath = 1;
+}
